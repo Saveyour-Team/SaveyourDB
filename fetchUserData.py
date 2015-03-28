@@ -14,11 +14,11 @@ class fetchUserData:
         return result
 
     def getPassword(self.u):
-        result  = collection.find_one({usr:self.u})
+        result = collection.find_one({usr:self.u})
         return result
 
     def getData(self.u):
-        result  = collection.find_one({usr:self.u})
+        result = collection.find_one({usr:self.u})
         return result
 
     def createNewUser(self.u, self.p):
