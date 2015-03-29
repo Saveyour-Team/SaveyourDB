@@ -25,4 +25,7 @@ class fetchUserData:
         newUser = {usr:self.u, pwd:self.p,data:""}
         collection.insert(newUser)
 
+    def getUserDoc(username):
+	result = collection.find_one({usr:self.u})
 
+    def setUserDoc(username):
